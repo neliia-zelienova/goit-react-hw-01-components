@@ -1,5 +1,6 @@
 import React from 'react';
 import StatItem from './StatItem';
+import PropTypes from 'prop-types';
 
 function Statistics({ title, stats }) {
     return (<section className="statistics">
@@ -9,4 +10,15 @@ function Statistics({ title, stats }) {
         </ul>
     </section>)
 };
+
+Statistics.propTypes = {
+    title: PropTypes.string,
+    stats: PropTypes.arrayOf(PropTypes.shape({
+        id: PropTypes.string,
+        label: PropTypes.string,
+        percentage: PropTypes.number,
+    })).isRequired
+};
+
+
 export default Statistics;

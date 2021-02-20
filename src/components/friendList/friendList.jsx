@@ -1,5 +1,6 @@
 import React from 'react';
 import FriendCard from './friendCard'
+import PropTypes from 'prop-types';
 
 function FriendList({ friends }) {
     return (
@@ -9,4 +10,15 @@ function FriendList({ friends }) {
     );
 
 }
+
+FriendList.propTypes = {
+    friends: PropTypes.arrayOf(PropTypes.shape({
+        avatar: PropTypes.string,
+        name: PropTypes.string,
+        isOnline: PropTypes.bool,
+        id: PropTypes.number
+    })).isRequired
+};
+
+
 export default FriendList;
