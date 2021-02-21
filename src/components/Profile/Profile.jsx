@@ -5,12 +5,12 @@ import PropTypes from 'prop-types';
 import noAvatar from './no-avatar.png';
 import styles from './Profile.module.css'
 
-const Profile = ({ name, tag, location, avatar, stats }) => {
-  return (<div className={styles.profile}>
+const Profile = ({ name, tag, location, avatar, stats }) => (
+  <div className={styles.profile}>
     <Description avatar={avatar} name={name} tag={tag} location={location} />
     <Stats stats={stats} />
-  </div>)
-};
+  </div>
+);
 
 Profile.defaultProps = {
   avatar: noAvatar,
@@ -33,5 +33,3 @@ Profile.propTypes = {
 
 
 export default Profile;
-
-
