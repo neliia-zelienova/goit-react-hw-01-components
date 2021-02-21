@@ -1,4 +1,6 @@
-.type, .amount, .currency{
+.type,
+.amount,
+.currency {
     border: 1px solid #e8e8e8;
     text-align: center;
     padding-top: 10px;
@@ -6,16 +8,16 @@
     color: #838586;
 }
 
-.row:nth-child(even){
-    background-color: #ecf1f4;    
+.row:nth-child(even) {
+    background-color: #ecf1f4;
 }
 
-.type{
+.type {
     text-align: left;
     padding-left: calc((100% / 3) / 3);
 }
 
-.amount{
+.amount {
     text-align: right;
     padding-right: calc((100% / 3) / 2.5);
 }

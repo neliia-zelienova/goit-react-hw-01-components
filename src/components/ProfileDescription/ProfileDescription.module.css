@@ -1,29 +1,29 @@
-.description{
+.description {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-
-.avatar{
+.avatar {
     width: 100px;
     border-radius: 50px;
     margin-bottom: 30px;
 }
 
-.name{
+.name {
     font-size: 22px;
     font-weight: 700;
     margin-bottom: 10px;
 }
 
-.tag, .location{
+.tag,
+.location {
     color: #8593a2;
     font-size: 14px;
     margin-bottom: 10px;
 }
 
-.location{
+.location {
     color: #8593a2;
     margin-bottom: 30px;
 }

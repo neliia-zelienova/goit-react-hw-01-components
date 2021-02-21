@@ -1,20 +1,19 @@
-.item{    
+.item {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     background-color: #f3f6f9;
     outline: 1px solid #e5e5f1;
     padding: 20px 15px;
-    
 }
 
-.label{
+.label {
     font-weight: 400;
     font-size: 12px;
     color: #8593a2;
     margin-bottom: 5px;
 }
 
-.quantity{
+.quantity {
     font-weight: 700;
 }

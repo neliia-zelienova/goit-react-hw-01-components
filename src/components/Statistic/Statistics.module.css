@@ -1,4 +1,4 @@
-.statistics{
+.statistics {
     display: inline-flex;
     width: 250px;
     border-radius: 3px;
@@ -6,11 +6,11 @@
     margin-bottom: 40px;
 }
 
-.title{
+.title {
     margin-bottom: 20px;
 }
 
-.statList{
+.statList {
     display: flex;
     width: 100%;
     margin: 0;
