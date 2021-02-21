@@ -1,11 +1,12 @@
 import React from 'react';
-import Description from './Description';
-import Stats from './Stats';
+import Description from '../ProfileDescription/ProfileDescription';
+import Stats from '../ProfileStats/ProfileStats';
 import PropTypes from 'prop-types';
 import noAvatar from './no-avatar.png';
+import styles from './Profile.module.css'
 
-function Profile({ name, tag, location, avatar, stats }) {
-  return (<div className="profile">
+const Profile = ({ name, tag, location, avatar, stats }) => {
+  return (<div className={styles.profile}>
     <Description avatar={avatar} name={name} tag={tag} location={location} />
     <Stats stats={stats} />
   </div>)

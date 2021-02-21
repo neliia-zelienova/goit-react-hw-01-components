@@ -1,0 +1,29 @@
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.avatar{
+    width: 100px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+.name{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.tag, .location{
+    color: #8593a2;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.location{
+    color: #8593a2;
+    margin-bottom: 30px;
+}

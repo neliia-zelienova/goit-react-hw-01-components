@@ -1,0 +1,11 @@
+.profile{
+    display: block;
+    justify-content: center;
+    overflow: hidden;
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);    
+    margin-top: 20px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}

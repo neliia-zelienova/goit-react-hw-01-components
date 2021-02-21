@@ -1,0 +1,17 @@
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ebebeb;
+    font-size: 10px;
+    width: calc(100% / 5);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.label{
+    padding-bottom: 5px;
+}
+
+.percentage{
+    font-size: 15px;
+}
