@@ -2,14 +2,15 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './StatItem.module.css';
 
-function StatItem({ label, percentage }) {
-    function getRandomColor() {
-        const colorArr = [];
-        for (let i = 0; i < 3; ++i) {
-            colorArr.push(Math.floor(Math.random() * Math.floor(255)));
-        }
-        return `rgb(${colorArr})`;
+function getRandomColor() {
+    const colorArr = [];
+    for (let i = 0; i < 3; ++i) {
+        colorArr.push(Math.floor(Math.random() * Math.floor(255)));
     }
+    return `rgb(${colorArr})`;
+}
+
+function StatItem({ label, percentage }) {
     return (
         <li
             className={styles.item}
