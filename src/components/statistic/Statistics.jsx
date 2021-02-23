@@ -1,5 +1,5 @@
 import React from 'react';
-import StatItem from '../StatItem/StatItem';
+import StatItem from './StatItem/StatItem';
 import PropTypes from 'prop-types';
 import styles from './Statistics.module.css';
 

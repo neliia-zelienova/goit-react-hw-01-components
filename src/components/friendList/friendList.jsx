@@ -1,5 +1,5 @@
 import React from 'react';
-import FriendCard from '../FriendCard/FriendCard';
+import FriendCard from './FriendCard/FriendCard';
 import PropTypes from 'prop-types';
 import styles from './FriendList.module.css';
 

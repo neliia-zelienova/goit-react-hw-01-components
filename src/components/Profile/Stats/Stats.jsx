@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import StatItem from '../ProfileStatItem/ProfileStatItem';
-import styles from './ProfileStats.module.css';
+import StatItem from '../StatItem/StatItem';
+import styles from './Stats.module.css';
 
 function Stats({ stats }) {
     const statsItems = Object.keys(stats).map(key => ({
